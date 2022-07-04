@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 99vw;
+    height: 98vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+img {
+    width: 20%;
+}
+div {
+    width: 490px;
+    margin: auto;
+}
+input#pergunta {
+    width: 490px;
+    height: 50px;
+    margin: 15px 0px 15px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+input#btnPerg {
+    display: block;
+    margin: auto;
+    width: 490px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+#btnPerg:hover {
+    background-color: rgb(161, 103, 214);
+    transition-duration: 0.2s;
+}
+#resposta {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.87);
+}
