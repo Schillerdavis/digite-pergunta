@@ -35,5 +35,7 @@ function Perguntar(){
         const numeroAleatorio = Math.floor(Math.random()*totalRespostas)
         resposta.innerHTML = `<p>${per}</p> <p><strong>${respostas[numeroAleatorio]}</strong></p>`
     }
+    perg.value = ''
+    perg.focus()
 }
 
